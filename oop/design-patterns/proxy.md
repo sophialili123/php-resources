@@ -179,7 +179,7 @@ class Book
         return $this->title;
     }
 
-    public function getAuthorAndTitle(
+    public function getAuthorAndTitle()
     {
         return $this->getTitle().' by '.$this->getAuthor();
     }
